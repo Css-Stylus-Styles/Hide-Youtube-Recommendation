@@ -1,0 +1,37 @@
+/* ==UserStyle==
+@name           Hide Youtube Reccomandatios
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.youtube.com") {
+	
+	
+			
+			/*Hide the layout greenbars */
+			
+			div.ghost-grid.ytd-ghost-grid-renderer {
+    display: none !important;
+}
+			
+			/*Video thumnail hidden */
+			
+			#content.ytd-rich-item-renderer {
+    height: 100%;
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+#dismissible {
+  display: none;
+}
+			
+			
+
+	
+	
+}
